@@ -1,0 +1,98 @@
+In OOPS concept
+
+# Java is not fully object oriented programming language because java does not support Multiple inheritance and for primitive data types. we can tell partially object oriented programming.
+
+# There are four features of OOPs
+Encapsulation
+Inheritance
+Abstraction and
+polymorphism.
+
+# OOPS are neither part of java nor any other paticular language. These oops features can adopt any language like java, c, c++, PHP and Javascript etc but the concept and features of oops will be same just syntax of writing code will be different for different language.
+
+# By using two things only class and objects we can implement oops concept so let's know about objects and class first then we will see different oops.
+
+# What is an object? Objects can be any real world entities like Ahmad, Mobiles , cars etc
+Every objects will have three things
+i> Identity=> Name
+ii> Properties/states=> variables
+ii> Functionality/activity=> method
+
+# what is a class ? class is a model/blue print of an objects like Human, Device, Vehicle etc;
+
+By using these two concept we are implementing OOPS concept such as:
+# i>Encapsulation: This is the concept of protecting Objects information so it's binding all information in a single unit that is called encapsulation. It binds class, method and variables in single unit as like various medicines keeps in a capsule.
+For implementing this concept we use private access modifier for variables like private string:name, private roll number then we use getter() and setter() method using this key word for outputs.
+
+# ii>Inheritance: This is the concept for updating new version of object through existing objects and we use this concept for reuseable of the codes.In this concept we use extends keyword explicitly  and for accessing parent class properties we use super keyword and for accessing child keyword we use this keyword.  Here we use some terms like
+parent => child
+base class=> derived class
+super class => sub class
+
+There are main three types of Inheritance
+a> Single Inheritance
+b> Multi-level Inheritance
+c> Hirarchical Inheritence
+
+# iii> Abstraction : This is the concept of hiding unnecessary details of the objects information, it's showing only essential information without showing background mechanism. for example phone calling, Car deriving
+For achieving Abstraction we use Abstract class or Interface
+
+# iv> Polymorphism: Here poly means 'many' and morphism means 'forms'-: According to this concept when an object is showing differents behaviour while communicating with different objects that is called polymorphism. for implementing this concept there are two scanarios  Compile time(Static binding) and Runtime (Dynamic binding) these are also the type of polymorphism.
+
+a>In Compile time plymorphism  we use method overloading() means  two or three functions will be same name and same class but parameters will be different.
+b>Runtime polymorphism we use method overriding() through this we can inherit the parent and child basically in overriding()method in child class with the same name and same signature of it's parent class is called method overriding.
+
+# Exception handling  is a mechanism in Java that allows you to deal with errors that occur during the execution of your program. When an error occurs, it is called an exception.
+
+There are two types of exceptions
+
+a> Checked exceptions are exceptions that must be handled by the programmer. If a method throws a checked exception, then the caller of the method must either handle the exception or declare it in the throws clause. these errors come at compile time means during compilation of the code. Some examples of checked exceptions are:
+
+FileNotFoundException
+ClassNotFoundException
+SQLException
+IOException
+
+b> Unchecked exceptions are exceptions that are not required to be handled by the programmer. If a method throws an unchecked exception, the caller of the method does not have to handle it, but it is still a good practice to do so.these errors come at Run time means during execution of the code. Some examples of unchecked exceptions are:
+
+NullPointerException
+ArithmeticException
+ArrayIndexOutOfBoundsException
+NumberFormatException
+
+Unchecked exception => Try and catch
+Checked Exception =>Finally
+Throw and throws
+
+Try block:- Handling Exception
+Catch block:- Avoids abnormal termination
+Finally block:- Resource releasing code
+
+# Multi threading is the concept of performing more then one task simultaneously using single processor.  n threads execute in a single space.
+
+# Multi tasking is the concept of optimum utilization of cpu. For n tasks performing n process spaces are required. for performing multi tasking Time slicing and context switching is used.
+
+# Creating a thread => A thread can be created in 2 ways 
+1> Extending from java.lang.thread class
+2> Implementing from java.lang.Runnable interface
+* Runnable interface is used when we want to apply thread functionality only to child class in "Is-A" relation
+ 
+# Thread life cycles: for life cycle of threads there are programmer and Schedular task(OS) are participating
+ * creation, instantiation, start, these three process doing by programmer
+  * runnable state, running state, waiting state, dead state  these tasks are done by Schedular(os);
+
+  Process: A process is a program in execution. It has its own memory space, its own code, and its own data.
+Thread: A thread is a lightweight process that shares the same memory space, code, and data with other threads in the same process.
+
+Here are some other key differences between processes and threads:
+
+Processes are more independent than threads. A process can run independently of other processes, while a thread is dependent on the process it belongs to.
+Threads are more lightweight than processes. Threads take up less memory and resources than processes.
+Threads can communicate with each other more easily than processes. Threads can share data and communicate with each other using shared variables and locks. Processes, on the other hand, need to communicate with each other using inter-process communication (IPC) mechanisms.
+Threads are more prone to race conditions and deadlocks. Race conditions and deadlocks are more likely to occur in multithreaded applications than in single-threaded applications.
+
+  # Types of threading => there are two types of threads Single threading and Multi threading 
+
+
+# Garbage collector GC is a critical part of Java memory management, and it is responsible for ensuring that Java programs do not run out of memory.
+Finalize()
