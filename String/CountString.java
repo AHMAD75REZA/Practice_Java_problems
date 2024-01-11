@@ -6,7 +6,7 @@ public class CountString {
     public static int count(String str) {
         int sumString = 0;
         for (int i = 0; i < str.length(); i++) {
-            if( str.charAt(i)!=' '){
+            if (str.charAt(i) != ' ') {
                 sumString++;
             }
         }
@@ -25,37 +25,37 @@ public class CountString {
     }
 }
 
-//Here user already given the string
+// Here user already given the string
 // public class CountString {
-//     public static void main(String[] args) {
-//         String str = "First program in string";
-//         int count = 0;
-//         for (int i = 0; i < str.length(); i++) {
-//             if (str.charAt(i) != ' ') {
-//                 count++;
-//             }
-//         }
-//         System.out.println("total number of characters are: " + " " + count);
-//     }
+// public static void main(String[] args) {
+// String str = "First program in string";
+// int count = 0;
+// for (int i = 0; i < str.length(); i++) {
+// if (str.charAt(i) != ' ') {
+// count++;
+// }
+// }
+// System.out.println("total number of characters are: " + " " + count);
+// }
 // }
 
-//Taking input from user
+// Taking input from user
 // import java.util.*;
 
 // public class CountString {
-//     public static void main(String[] args) {
-//         // String str = "First program in string";
-//         Scanner sc = new Scanner(System.in);
-//         String str = sc.nextLine();
-//         int count = 0;
-//         for (int i = 0; i < str.length(); i++) {
-//             if (str.charAt(i) != ' ') {
-//                 count++;
-//             }
-//         }
-//         System.out.println("total number of characters are: " + " " + count);
-//         sc.close();
-//     }
+// public static void main(String[] args) {
+// // String str = "First program in string";
+// Scanner sc = new Scanner(System.in);
+// String str = sc.nextLine();
+// int count = 0;
+// for (int i = 0; i < str.length(); i++) {
+// if (str.charAt(i) != ' ') {
+// count++;
+// }
+// }
+// System.out.println("total number of characters are: " + " " + count);
+// sc.close();
+// }
 // }
 
 // taking input from user and using function write the code
@@ -63,25 +63,25 @@ public class CountString {
 // import java.util.*;
 
 // public class CountString {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         String input = sc.nextLine();
-//         int  numberofstring = count(input);
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// String input = sc.nextLine();
+// int numberofstring = count(input);
 
-//         System.out.println("Total number of characters: " + " " + numberofstring);
+// System.out.println("Total number of characters: " + " " + numberofstring);
 
-//         sc.close();
+// sc.close();
 
-//     }
+// }
 
-//     public static int count(String input) {
-//         int count = 0;
-//         for (int i = 0; i < input.length(); i++) {
-//             if (input.charAt(i) != ' ') {
-//                 count++;
-//             }
-//         }
-//         return count;
+// public static int count(String input) {
+// int count = 0;
+// for (int i = 0; i < input.length(); i++) {
+// if (input.charAt(i) != ' ') {
+// count++;
+// }
+// }
+// return count;
 
-//     }
+// }
 // }
