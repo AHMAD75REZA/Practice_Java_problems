@@ -33,7 +33,7 @@ public class ArrangeNumbers {
         int arr[] = new int[n];
         // System.out.println("Enter the element in the array: ");
         // for (int i = 0; i < n; i++) {
-        // arr[i] = s.nextInt();
+        //     arr[i] = s.nextInt();
         // }
 
         ArrangeNumbers.Arrange(arr, n);

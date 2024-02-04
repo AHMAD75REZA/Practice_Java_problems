@@ -14,7 +14,7 @@ public class StringPalindrom {
 
         // prinpalindrom(send);
 
-        // System.out.println(send + "required palindrom ");
+         System.out.println(send + "required palindrom ");
 
         // String revString ="";
 

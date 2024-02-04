@@ -30,9 +30,9 @@ base class=> derived class
 super class => sub class
 
 There are main three types of Inheritance
-a> Single Inheritance
-b> Multi-level Inheritance
-c> Hirarchical Inheritence
+a> Single Inheritance => Single parent and single child inherits
+b> Multi-level Inheritance => Grand parents -> to parents -> to child
+c> Hirarchical Inheritence => Single parents have multiple children
 
 # iii> Abstraction : This is the concept of hiding unnecessary details of the objects information, it's showing only essential information without showing background mechanism. for example phone calling, Car deriving
 For achieving Abstraction we use Abstract class or Interface
